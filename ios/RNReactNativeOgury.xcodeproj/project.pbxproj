@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FBA0B7625D6EA2600DD043E /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBA0B5E25D6E9ED00DD043E /* libReact.a */; };
 		9FBA0B7A25D6EAE600DD043E /* IOSNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA0B7825D6EAE600DD043E /* IOSNativeToast.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeOgury.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeOgury.m */; };
 /* End PBXBuildFile section */
@@ -97,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FBA0B7625D6EA2600DD043E /* libReact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
