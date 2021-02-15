@@ -26,10 +26,4 @@ public class RNReactNativeOguryPackage implements ReactPackage {
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
       return Collections.emptyList();
     }
-
-    @ReactMethod
-    public void show(String text) {
-        Context context = getReactApplicationContext();
-        Toast.makeText(context, text, Toast.LENGTH_LONG).show();
-    }
 }
