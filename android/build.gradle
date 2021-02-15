@@ -28,9 +28,13 @@ android {
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://maven.ogury.co'
+    }
 }
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+    implementation 'co.ogury:ogury-sdk:5.+'
 }
   

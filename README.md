@@ -22,7 +22,7 @@
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNReactNativeOguryPackage;` to the imports at the top of the file
+  - Add `import com.reactlibraryogury.RNReactNativeOguryPackage;` to the imports at the top of the file
   - Add `new RNReactNativeOguryPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
@@ -33,15 +33,6 @@
   	```
       compile project(':react-native-react-native-ogury')
   	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNReactNativeOgury.sln` in `node_modules/react-native-react-native-ogury/windows/RNReactNativeOgury.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using React.Native.Ogury.RNReactNativeOgury;` to the usings at the top of the file
-  - Add `new RNReactNativeOguryPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
 
 ## Usage
 ```javascript
