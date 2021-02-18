@@ -28,7 +28,32 @@ public class RNOguryBannerManager320x50 extends SimpleViewManager<OguryBannerAdV
         OguryBannerAdView banner;
         banner = new OguryBannerAdView(reactContext);
         banner.setAdSize(OguryBannerAdSize.SMALL_BANNER_320x50);
+        banner.setListener(new OguryBannerAdListener() {
+            @Override
+            public void onAdLoaded() {
 
+            }
+
+            @Override
+            public void onAdDisplayed() {
+
+            }
+
+            @Override
+            public void onAdClicked() {
+
+            }
+
+            @Override
+            public void onAdClosed() {
+
+            }
+
+            @Override
+            public void onAdError(OguryError oguryError) {
+                Log.d(TAG, "ogurry error " + oguryError);
+            }
+        });
         return banner;
     }
 
